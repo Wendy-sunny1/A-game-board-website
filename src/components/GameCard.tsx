@@ -1,13 +1,5 @@
 import { Game } from "../hooks/useGames";
-import {
-  Box,
-  Card,
-  CardBody,
-  Heading,
-  HStack,
-  Image,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Card, CardBody, Heading, HStack, Image } from "@chakra-ui/react";
 import { PlatformIconList } from "./PlatformIconList";
 import { CriticScore } from "./CriticScore";
 import noImage from "../assets/place holder.png";
