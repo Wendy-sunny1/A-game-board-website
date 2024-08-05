@@ -19,7 +19,7 @@ export const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
   if (isLoading) return <Spinner />;
   return (
     <>
-      <Heading fontSize="x-large" paddingY={2} color="gray">
+      <Heading fontSize="x-large" paddingY={2} color="pink">
         Genres
       </Heading>
       <List>
